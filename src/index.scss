@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "euclid";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/Fonts/Euclid_Fonts/Circular/WOFF/EuclidCircularA-Medium.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "euclid";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/Fonts/Euclid_Fonts/Circular/WOFF/EuclidCircularA-Medium.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "euclid";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/Fonts/Euclid_Fonts/Circular/WOFF/EuclidCircularA-SemiBold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "euclid";
+  font-style: normal;
+  font-weight: bolder;
+  src: url("./assets/Fonts/Euclid_Fonts/Circular/WOFF/EuclidCircularA-Bold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "euclid";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/Fonts/Euclid_Fonts/Circular/WOFF/EuclidCircularA-Regular.woff")
+    format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: euclid !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: #fafafb;
+}
+* {
+  font-family: euclid !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.recharts-default-legend {
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiTooltip-tooltip {
+  background-color: #000 !important;
+  & .MuiTooltip-arrow {
+    &:before {
+      background-color: #000 !important;
+    }
+  }
+}
